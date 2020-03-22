@@ -1,0 +1,71 @@
+@charset "utf-8";
+#tran div {
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#trandiv:hover {
+    background-color: red;
+    color: black;
+}
+
+#tran1 {
+    transition-property: background-color, color;
+    transition-duration: 3s;
+}
+
+#tran2 {
+    transition-property: background-color, color;
+    transition-duration: 20s, 1s;
+}
+
+#tran3 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+}
+
+#tran4 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}
+
+#tran5 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+
+#tran6 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+}
+
+#tran7 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+
+#tran8 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: step-start;
+}
+
+#tran9 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-timing-function: step-end;
+}
+
+#tran10 {
+    transition-property: background-color, color;
+    transition-duration: 5s;
+    transition-delay: 3s;
+}
